@@ -3,25 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		83452D5B0F895541D9209891 /* Pods_InterlaceCodingTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7D608C361A2A0EF1E835FC /* Pods_InterlaceCodingTest.framework */; };
 		CFABD5F422F4C98D00104B6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFABD5F322F4C98D00104B6C /* AppDelegate.swift */; };
-		CFABD5F622F4C98D00104B6C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFABD5F522F4C98D00104B6C /* ViewController.swift */; };
 		CFABD5F922F4C98D00104B6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFABD5F722F4C98D00104B6C /* Main.storyboard */; };
 		CFABD5FB22F4C98E00104B6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFABD5FA22F4C98E00104B6C /* Assets.xcassets */; };
 		CFABD5FE22F4C98E00104B6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFABD5FC22F4C98E00104B6C /* LaunchScreen.storyboard */; };
+		CFABD60A22F4CC6700104B6C /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFABD60922F4CC6700104B6C /* mainViewController.swift */; };
+		CFABD60D22F4CD4400104B6C /* postCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFABD60C22F4CD4400104B6C /* postCollectionViewCell.swift */; };
+		CFABD61122F4D2D700104B6C /* GiphyAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFABD61022F4D2D700104B6C /* GiphyAPI.swift */; };
+		CFABD61422F4E2C100104B6C /* GiphyPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFABD61322F4E2C100104B6C /* GiphyPost.swift */; };
+		CFABD61A22F4FE7800104B6C /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFABD61922F4FE7800104B6C /* MainViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22254F8CE2B28925915510B4 /* Pods-InterlaceCodingTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterlaceCodingTest.release.xcconfig"; path = "Target Support Files/Pods-InterlaceCodingTest/Pods-InterlaceCodingTest.release.xcconfig"; sourceTree = "<group>"; };
+		2B7D608C361A2A0EF1E835FC /* Pods_InterlaceCodingTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InterlaceCodingTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74029AC51F3723D13203CF8C /* Pods-InterlaceCodingTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterlaceCodingTest.debug.xcconfig"; path = "Target Support Files/Pods-InterlaceCodingTest/Pods-InterlaceCodingTest.debug.xcconfig"; sourceTree = "<group>"; };
 		CFABD5F022F4C98D00104B6C /* InterlaceCodingTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InterlaceCodingTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFABD5F322F4C98D00104B6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CFABD5F522F4C98D00104B6C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CFABD5F822F4C98D00104B6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFABD5FA22F4C98E00104B6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFABD5FD22F4C98E00104B6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFABD5FF22F4C98E00104B6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFABD60922F4CC6700104B6C /* mainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		CFABD60C22F4CD4400104B6C /* postCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = postCollectionViewCell.swift; sourceTree = "<group>"; };
+		CFABD61022F4D2D700104B6C /* GiphyAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyAPI.swift; sourceTree = "<group>"; };
+		CFABD61322F4E2C100104B6C /* GiphyPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphyPost.swift; sourceTree = "<group>"; };
+		CFABD61922F4FE7800104B6C /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83452D5B0F895541D9209891 /* Pods_InterlaceCodingTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1194AF59C289FD37C3993729 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B7D608C361A2A0EF1E835FC /* Pods_InterlaceCodingTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		62E6509196933217D6A04E54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74029AC51F3723D13203CF8C /* Pods-InterlaceCodingTest.debug.xcconfig */,
+				22254F8CE2B28925915510B4 /* Pods-InterlaceCodingTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		CFABD5E722F4C98D00104B6C = {
 			isa = PBXGroup;
 			children = (
 				CFABD5F222F4C98D00104B6C /* InterlaceCodingTest */,
 				CFABD5F122F4C98D00104B6C /* Products */,
+				62E6509196933217D6A04E54 /* Pods */,
+				1194AF59C289FD37C3993729 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +86,90 @@
 		CFABD5F222F4C98D00104B6C /* InterlaceCodingTest */ = {
 			isa = PBXGroup;
 			children = (
-				CFABD5F322F4C98D00104B6C /* AppDelegate.swift */,
-				CFABD5F522F4C98D00104B6C /* ViewController.swift */,
-				CFABD5F722F4C98D00104B6C /* Main.storyboard */,
-				CFABD5FA22F4C98E00104B6C /* Assets.xcassets */,
-				CFABD5FC22F4C98E00104B6C /* LaunchScreen.storyboard */,
-				CFABD5FF22F4C98E00104B6C /* Info.plist */,
+				CFABD60E22F4D2B300104B6C /* Helpers */,
+				CFABD60B22F4CD1400104B6C /* Cells */,
+				CFABD60622F4C9B500104B6C /* Core */,
+				CFABD60722F4C9BF00104B6C /* Images */,
+				CFABD60522F4C9A400104B6C /* Storyboards */,
+				CFABD60822F4C9C800104B6C /* View Controllers */,
 			);
 			path = InterlaceCodingTest;
+			sourceTree = "<group>";
+		};
+		CFABD60522F4C9A400104B6C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CFABD5F722F4C98D00104B6C /* Main.storyboard */,
+				CFABD5FC22F4C98E00104B6C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		CFABD60622F4C9B500104B6C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				CFABD5F322F4C98D00104B6C /* AppDelegate.swift */,
+				CFABD5FF22F4C98E00104B6C /* Info.plist */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		CFABD60722F4C9BF00104B6C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CFABD5FA22F4C98E00104B6C /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CFABD60822F4C9C800104B6C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CFABD61822F4FE3200104B6C /* View Model */,
+				CFABD60922F4CC6700104B6C /* mainViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		CFABD60B22F4CD1400104B6C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CFABD60C22F4CD4400104B6C /* postCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		CFABD60E22F4D2B300104B6C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CFABD61222F4E2A700104B6C /* Models */,
+				CFABD60F22F4D2BA00104B6C /* Networking */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CFABD60F22F4D2BA00104B6C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				CFABD61022F4D2D700104B6C /* GiphyAPI.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		CFABD61222F4E2A700104B6C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CFABD61322F4E2C100104B6C /* GiphyPost.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CFABD61822F4FE3200104B6C /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				CFABD61922F4FE7800104B6C /* MainViewModel.swift */,
+			);
+			path = "View Model";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +179,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFABD60222F4C98E00104B6C /* Build configuration list for PBXNativeTarget "InterlaceCodingTest" */;
 			buildPhases = (
+				7B2E89E2233DB930EE84E7B9 /* [CP] Check Pods Manifest.lock */,
 				CFABD5EC22F4C98D00104B6C /* Sources */,
 				CFABD5ED22F4C98D00104B6C /* Frameworks */,
 				CFABD5EE22F4C98D00104B6C /* Resources */,
+				4B87A5EF30D122B9A0FAFE11 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +240,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B87A5EF30D122B9A0FAFE11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InterlaceCodingTest/Pods-InterlaceCodingTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InterlaceCodingTest/Pods-InterlaceCodingTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InterlaceCodingTest/Pods-InterlaceCodingTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B2E89E2233DB930EE84E7B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InterlaceCodingTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CFABD5EC22F4C98D00104B6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFABD5F622F4C98D00104B6C /* ViewController.swift in Sources */,
+				CFABD60A22F4CC6700104B6C /* mainViewController.swift in Sources */,
+				CFABD60D22F4CD4400104B6C /* postCollectionViewCell.swift in Sources */,
+				CFABD61422F4E2C100104B6C /* GiphyPost.swift in Sources */,
 				CFABD5F422F4C98D00104B6C /* AppDelegate.swift in Sources */,
+				CFABD61122F4D2D700104B6C /* GiphyAPI.swift in Sources */,
+				CFABD61A22F4FE7800104B6C /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,10 +436,11 @@
 		};
 		CFABD60322F4C98E00104B6C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74029AC51F3723D13203CF8C /* Pods-InterlaceCodingTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = InterlaceCodingTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/InterlaceCodingTest/Core/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,10 +454,11 @@
 		};
 		CFABD60422F4C98E00104B6C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22254F8CE2B28925915510B4 /* Pods-InterlaceCodingTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = InterlaceCodingTest/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/InterlaceCodingTest/Core/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

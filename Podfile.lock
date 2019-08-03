@@ -1,0 +1,28 @@
+PODS:
+  - FLAnimatedImage (1.0.12)
+  - SDWebImage/Core (5.0.6)
+  - SDWebImageFLPlugin (0.3.0):
+    - FLAnimatedImage (>= 1.0.11)
+    - SDWebImage/Core (~> 5.0)
+  - SwiftyJSON (4.3.0)
+
+DEPENDENCIES:
+  - SDWebImageFLPlugin
+  - SwiftyJSON (~> 4.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FLAnimatedImage
+    - SDWebImage
+    - SDWebImageFLPlugin
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  SDWebImage: 920f1a2ff1ca8296ad34f6e0510a1ef1d70ac965
+  SDWebImageFLPlugin: cf3f4ae49f249dd785129346fd61bbc8433a88cf
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+
+PODFILE CHECKSUM: a461d6a030a169427ee9bff4368d254a4a0311f5
+
+COCOAPODS: 1.7.5
